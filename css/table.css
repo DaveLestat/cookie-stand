@@ -1,0 +1,19 @@
+* {
+    background-color: gray;
+}
+
+table,
+tr,
+td {
+    background-color: rgb(121, 145, 139);
+    border: 5px solid rgb(69, 97, 86);
+    /* border-radius: 80px; */
+    padding: 20px;
+}
+
+td {
+    /* border-radius: 25px; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(145, 145, 145);
+    font-family: sans-serif;
+}
