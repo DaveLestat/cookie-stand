@@ -1,19 +1,19 @@
 * {
-    background-color: rgb(248, 247, 247);
+    background-color: #A35234;
 }
 
 table,
 tr,
 td {
-    background-color: rgba(249, 250, 250, 0.808);
-    /* border: 3px solid rgb(69, 97, 86); */
-    /* border-radius: 80px; */
+    background-color: #C1744C;
+    border: 2px solid rgb(105, 43, 36);
+    border-radius: 20px;
     padding: 20px;
 }
 
 td {
-    /* border-radius: 25px; */
-    color: rgb(0, 0, 0);
-    background-color: rgb(145, 145, 145);
+    border-radius: 15px;
+    color: rgb(2, 2, 2);
+    background-color: #D7AA75;
     font-family: sans-serif;
 }

@@ -1,0 +1,17 @@
+
+body {
+  min-width: 960px;
+  background-color: #C1744C;
+  background: #8f794c url("images/bg.jpg");
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90%;
+  margin: 0px;
+  text-align: center;}
+
+
+.nav {
+    float: right;
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+    font-size: 120%;
+    padding: 45px 0px 0px 0px;
+    text-align: right;}
