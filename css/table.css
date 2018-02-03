@@ -53,8 +53,11 @@ fieldset {
 }
 input {
     font-size: 130%;
+    text-align: center;
+    margin-top: 3px;
 }
 legend {
     color: black;
     font-size: 130%;
 }
+
