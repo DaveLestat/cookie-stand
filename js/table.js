@@ -107,6 +107,8 @@ function letsCreateAnewStore(){
   new newStore('Capitol Hill', 20, 38, 2.3);
 }
 letsCreateAnewStore();
+console.log('new store created');
+
 makeHeaderRow();
 createStore();
 makeTotalsRow();
@@ -135,7 +137,7 @@ function submitNewStore(event) {
 
   makeHeaderRow();
   createStore();
-  makeFooterRow();
+  makeTotalsRow();
   console.log('new store submitted!');
 }
 
