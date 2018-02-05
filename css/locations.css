@@ -51,9 +51,13 @@ td.description{
     min-width: 450px;
     max-width: 650px;
     text-align: left;
-    padding: 3px;
+    padding: 5px;
     margin: 0px;
     vertical-align: top;
+    font-family:'Varela Round', sans-serif;
 }
 
+table {
+    margin: 20px;
+}
 
