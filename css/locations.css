@@ -9,7 +9,32 @@ header{
     width: auto;
     font-family: 'Shadows Into Light', cursive;
 }
+.maps {
+    width: 200px;
+    height: 200px; 
+    /* border: double black; */
+    margin: auto;
+}
 
+#leftsection {
+    margin: 10px;
+    width: 200px;
+}
+
+#middlesection{
+    margin: auto;
+    align-content: center;
+}
+
+.description {
+    margin: auto;
+    width: 200px;
+}
+
+.description p {
+    padding: 2px;
+    width: 100%;
+}
 
 #page {
     max-width: 1000px;
@@ -18,9 +43,11 @@ header{
     padding: 20px;
     border: 4px double #000;
     background-color: #8A764B;}
+
 #logo {
     width: 200px;
     margin: 10px auto 25px auto;}
+
 ul {
     width: 700px;
     padding: 15px;
