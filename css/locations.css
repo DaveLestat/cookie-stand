@@ -9,32 +9,6 @@ header{
     width: auto;
     font-family: 'Shadows Into Light', cursive;
 }
-.maps {
-    width: 200px;
-    height: 200px; 
-    /* border: double black; */
-    margin: auto;
-}
-
-#leftsection {
-    margin: 10px;
-    width: 200px;
-}
-
-#middlesection{
-    margin: auto;
-    align-content: center;
-}
-
-.description {
-    margin: auto;
-    width: 200px;
-}
-
-.description p {
-    padding: 2px;
-    width: 100%;
-}
 
 #page {
     max-width: 1000px;
@@ -72,3 +46,14 @@ a {
 a:hover, a.on {
     color: #000000ef;
     background-color: #ffffff38;}
+
+td.description{
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 3px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+
