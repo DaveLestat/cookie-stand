@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+'use strict';
+>>>>>>> day10-styling
 //global variables
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 var storeLocations = [];
 
 function CreateStore(name, minCustPerHour, maxCustPerHour, avgCookiesPerDay) {
+<<<<<<< HEAD
   this.name = name;
+=======
+this.name = name;
+>>>>>>> day10-styling
   this.minCustPerHour = minCustPerHour;
   this.maxCustPerHour = maxCustPerHour;
   this.avgCookiesPerDay = avgCookiesPerDay;
@@ -11,10 +19,17 @@ function CreateStore(name, minCustPerHour, maxCustPerHour, avgCookiesPerDay) {
   this.randCustByHour = [];
   this.calcCookiesSoldByHour = [];
   this.totalCookies = 0;
+<<<<<<< HEAD
 }
 
 //Prototype
 CreateStore.prototype.randomCustomerHr = function () {
+=======
+};
+
+//Prototype
+CreateStore.prototype.randomCustomerHr() = function () {
+>>>>>>> day10-styling
   for (var i = 0; i < hours.length; i++) {
     this.randCustByHour.push(Math.floor(Math.random() * (this.maxCustPerHour - this.minCustPerHour + 1)) + this.minCustPerHour);
     console.log(this.randCustByHour[i]);
@@ -22,15 +37,26 @@ CreateStore.prototype.randomCustomerHr = function () {
 };
 
 //define method for random cookies per hour
+<<<<<<< HEAD
 CreateStore.prototype.calcCookiesSoldByHour = function () {
   for (var j = 0; j < hours.length; j++) {
     this.cookiesSoldByHour.push(Math.round(this.avgCookiesSoldPerHour * this.randCustByHour[j]));
     console.log(this.cookiesSoldByHour[j]);
+=======
+CreateStore.prototype.calcCookiesSoldByHour() = function () {
+  for (var j = 0; j < hours.length; j++) {
+    this.cookiesSoldByHour.push(Math.round(this.avgCookiesSoldPerHour * this.randCustByHour[j]));
+    console.log(this.cookiesSoldByHour[j])
+>>>>>>> day10-styling
   }
 };
 
 //Render function
+<<<<<<< HEAD
 CreateStore.prototype.render = function () {
+=======
+CreateStore.prototype.render() = function () {
+>>>>>>> day10-styling
   var turtle = document.getElementById('turtle');
   var store2 = document.getElementById('store2');
 

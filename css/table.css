@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     background-color: #A35234;
 }
@@ -9,11 +10,74 @@ td {
     border: 2px solid rgb(105, 43, 36);
     border-radius: 20px;
     padding: 20px;
+=======
+
+
+body {
+    background-color: rgb(105, 103, 83);
+    justify-content: center;
 }
 
+
+#tr {
+    color: rgb(7, 7, 7);
+    text-align: center;
+    background-color: azure;
+>>>>>>> day10-styling
+}
+
+#salesTable {
+    padding: 2px;
+    border: rgb(2, 2, 2) 2px ridge;
+    margin: auto;
+    background-color: rgb(145, 142, 116);
+    
+}
+
+tr {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+    font-size: 100%;
+}
+
+
 td {
+<<<<<<< HEAD
     border-radius: 15px;
     color: rgb(2, 2, 2);
     background-color: #D7AA75;
+=======
+    /* border-radius: 25px; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(167, 145, 97);
+>>>>>>> day10-styling
     font-family: sans-serif;
+    padding: 10px;
+    border: black 1px ridge;
 }
+
+form {
+    width: 55%;
+    margin: auto;
+    border: rgba(2, 2, 2, 0) 3px;
+}
+
+fieldset {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    border-color: black;
+    border-style: double;
+}
+input {
+    font-size: 130%;
+    text-align: center;
+    margin-top: 3px;
+}
+legend {
+    color: black;
+    font-size: 130%;
+}
+
